@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: external-cm
+  namespace: default
+data:
+  IsAlive: -| 
+  {{.commonValue}}
+  {{.componentsValue}}

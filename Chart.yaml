@@ -1,0 +1,8 @@
+apiVersion: v2
+name: external-test
+description: external repo test
+
+type: application
+
+version: 1.0.0
+appVersion: "1.16.0"
